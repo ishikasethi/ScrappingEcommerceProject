@@ -4,7 +4,7 @@ import PySimpleGUI as pg
 import functions
 
 
-if not os.path.exists("todos.txt"):
+if not os.path.exists("product_data.csv"):
     with open("product_data.csv", 'w') as file:
         pass
 
